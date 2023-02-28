@@ -1,0 +1,28 @@
+Chomsky01
+ - too simple, literally just the Chomsky example
+ 
+ Chomsky02
+ - inflect the verb for singular nouns
+ 
+ Chomksy03
+ - use an oper to attach the subject concord
+ - add a verb
+ 
+ Chomsky04
+ - add plurals
+
+
+
+
+verb_forms : Str -> Class => Str = \root -> table {
+      C1 => "uthatha" ;
+      C2 => "bathatha" ;
+      C3 => "uthatha" ;
+      C4 => "ithatha" ;
+      C5 => "lithatha" ;
+      C6 => "athatha" ;
+      C7 => "sithatha" ;
+      C8 => "zithatha" ;
+      C9 => "ithatha" ;
+      C10 => "zithatha"
+    }
