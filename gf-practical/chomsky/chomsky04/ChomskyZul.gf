@@ -4,7 +4,9 @@ concrete ChomskyZul of Chomsky = open ChomskyResZul in {
     Sentence = { s : Str } ;
     NP = { s : Str ; c : Class ; num : Number } ;
     VP = { s : Class => Number => Str } ;
+
     Det = { s : Str ; num : Number } ;
+
     N = { s : Number => Str ; c : Class } ;
     V = { s : Class => Number => Str } ;
 
@@ -14,9 +16,9 @@ concrete ChomskyZul of Chomsky = open ChomskyResZul in {
     mkVP v np = { s = \\c,num => v.s!c!num ++ np.s } ;
     the_Sg  = { s = "" ; num = Sg } ;
     the_Pl  = { s = "" ; num = Pl } ;
-    man  = { s = noun_table "indoda" "amadoda" ; c = C9_6 } ;
-    boy  = { s = noun_table "umfana" "abafana" ; c = C1_2 } ;
-    book = { s = noun_table "incwadi" "izincwadi" ; c = C9_10 } ;
+    man  = { s = noun_forms "indoda" "amadoda" ; c = C9_6 } ;
+    boy  = { s = noun_forms "umfana" "abafana" ; c = C1_2 } ;
+    book = { s = noun_forms "incwadi" "izincwadi" ; c = C9_10 } ;
     take = {s = verb_forms "thatha" } ;
     see = {s = verb_forms "bona" } ;
 

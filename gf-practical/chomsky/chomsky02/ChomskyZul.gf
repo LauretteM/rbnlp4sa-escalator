@@ -24,7 +24,8 @@ concrete ChomskyZul of Chomsky = {
         C3 => "uthatha" ;
         C5 => "lithatha" ;
         C7 => "sithatha" ;
-        C9 => "ithatha"      }
+        C9 => "ithatha"
+      }
     } ;
 
   param

@@ -20,6 +20,6 @@ abstract Chomsky = {
     boy  : N ;
     book : N ;
     take : V ;
-    like : V ;
+    see : V ;
 
 }

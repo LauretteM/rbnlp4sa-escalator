@@ -9,12 +9,12 @@ resource ChomskyResZul = {
       C1_2 =>   table { Sg => "u" + root ;  Pl => "ba" + root } ;
       C3_4 =>   table { Sg => "u" + root ;  Pl => "i" + root } ;
       C5_6 =>   table { Sg => "li" + root ; Pl => "a" + root } ;
-      C7_8 =>   table { Sg => "si" + root ; Pl => "ba" + root } ;
+      C7_8 =>   table { Sg => "si" + root ; Pl => "zi" + root } ;
       C9_10 =>  table { Sg => "i" + root ;  Pl => "zi" + root } ;
-      C9_6 =>   table { Sg => "i" + root ;  Pl => "zi" + root }
+      C9_6 =>   table { Sg => "i" + root ;  Pl => "a" + root }
     } ;
 
-    noun_table : Str -> Str -> Number => Str = \n_sg,n_pl -> table {
+    noun_forms : Str -> Str -> Number => Str = \n_sg,n_pl -> table {
       Sg => n_sg ;
       Pl => n_pl
     } ;

@@ -18,7 +18,7 @@ concrete ChomskyZul of Chomsky = open ChomskyResZul in {
     man  = { s = "indoda" ; c = C9 } ;
     boy  = { s = "umfana" ; c = C1 } ;
     book = { s = "incwadi" ; c = C9 } ;
-    take = {s = verb_forms "thatha" } ;
-    see = {s = verb_forms "bona" } ;
+    take = { s = verb_forms "thatha" } ;
+    see  = { s = verb_forms "bona" } ;
 
 }
