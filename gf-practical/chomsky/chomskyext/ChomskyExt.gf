@@ -5,4 +5,7 @@ abstract ChomskyExt = Chomsky ** {
     egg : N ;
     key : N ;
 
+    -- collaborator: Your Name
+    -- insert nouns and verbs here
+
 }
